@@ -2535,7 +2535,7 @@ html.ie8 #content-secondary .badge, html.ie7 #content-secondary .badge {
 #comment-form input[type=text] {
     width: 51.195%}
 #comment-form textarea {
-
+    height: 9.625em;
     max-width: 95.904%;
     width: 95.904%}
 #work img {
