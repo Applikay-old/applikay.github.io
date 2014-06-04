@@ -1505,12 +1505,10 @@ label.dim {
 }
 }html {
     background: transparent url(../images/html.jpg) left top repeat;
-    border: 30px solid #2d2d2d;
     padding: 0 2.75em;
 }
 body {
-    background: transparent url(../images/site/loader.gif) center -400px no-repeat;
-    margin: 2.75em auto 8.25em;
+    margin: 1.75em auto 8.25em;
     min-height: 990px;
     max-width: 68.688em;
 }
@@ -1805,10 +1803,11 @@ html.ie8 #content-secondary .badge, html.ie7 #content-secondary .badge {
     margin-bottom: 0;
 }
 #slideshow {
-    min-height: 582px;
+    min-height: 482px;
     overflow: hidden;
     position: relative;
 }
+/*
 #slideshow.loading {
     background: transparent url(../images/site/loader.gif) center 260px no-repeat;
 }
@@ -2298,7 +2297,7 @@ html.ie8 #content-secondary .badge, html.ie7 #content-secondary .badge {
     animation-timing-function: ease;
     animation-fill-mode: forwards;
     opacity: 0;
-}
+}*/
 .video-container {
     position: relative;
     padding-bottom: 50.25%;
@@ -2574,6 +2573,9 @@ html.ie8 #content-secondary .badge, html.ie7 #content-secondary .badge {
 }
 img.item-wwd {
     max-height: 325px;
+}
+img.item-wwd2 {
+    max-height: 225px;
 }
 img.item-wwb {
     max-height: 340px;
